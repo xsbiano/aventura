@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca do tesouro perdido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="praia.png" alt="">
+            <p>Um dia desses, dentro de uma garrafa de vidro na praia, descobri uma carta antiga sobre um tesouro perdido, escondido por piratas antigos. Nessa carta, a autora deixa algumas pistas para encontrar essa cidade e eu decidi segui-las!</p>
+            <button class="btn-proximo" data-proximo="1">Bahia</button>
+            <button class="btn-proximo" data-proximo="2">Amazonas</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="farol.png.avif" alt="">
+            <p>>Você começa sua jornada na Bahia, subindo o Farol da Barra ao amanhecer para encontrar a primeira pista</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista no topo do farol</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="floresta.png.jpg" alt="">
+            <p>>Em Amazonas, você visita a histórica floresta. Na carta, uma das pistas indica que para localizar a entrada para o tesouro a próxima pista dentro da floresta. Por qual você começa?</p>
+            <button class="btn-proximo" data-proximo="5">Investigar as grutas madada</button>
+            <button class="btn-proximo" data-proximo="6">Explorar as escaladas das arvores</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No topo do farol, você encontra uma seta indicando o caminho pelas pedras do mar.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir o caminho das pedras</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
+                encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Nas grutas madada, você descobre um mapa antigo escondido atrás de um tronco, apontando que a próxima
+                pista está no mar de pedras.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o mar de pedras</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>cavernas da floresta, você encontra uma passagem escondida, mas ela leva a um beco sem saída.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar as grutas</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p> em sua busca por mais pistas. Você se depara com tubaroes.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo mar à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo mar à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>no rio dividido, você finalmente encontra o mapa antigo. Agora, mandando ir para o sul</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o sul</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O mar à esquerda leva você a um navio  escondido com inscrições antigas que revelam a entrada da
+               torre.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o navio</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O rio à direita termina em uma área cheia de agua vivas. Apesar de belas vistas, não há sinais de mais pistas
+                aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro mar</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="naviopirata.png.avif" alt="encontrando umm tesouro maravilhoso perdido no navio">
+            <p> você finalmente encontra o tesouro perdido e descobre riquesas e fica milionario</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>entrando na torre você depara...</p>
+            <button class="btn-proximo" data-proximo="11">fim de jogo</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
